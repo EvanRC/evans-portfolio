@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 
 
 const App = () => {
-  return (
+  return ( 
     <Router>
       <div className="app">
         <Header />
@@ -26,7 +26,6 @@ const App = () => {
     </Router>
   );
 };
-
 
 
 // Exports the App component to be used in the application

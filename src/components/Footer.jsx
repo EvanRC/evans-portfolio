@@ -9,12 +9,12 @@ const Footer = () => {
     return (
         <footer className="footer">
             <p>&copy; {new Date().getFullYear()} Evan Carlson. All rights reserved.</p>
-            <div>
+            <div className="footer"> 
                 <a href="https://www.linkedin.com/in/evan-carlson-34a45021a/">
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
                 <a href="https://github.com/EvanRC">
-                    <FontAwesomeIcon icon={faGithub} />
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
             </div>
         </footer>

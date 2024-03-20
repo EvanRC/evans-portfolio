@@ -1,21 +1,24 @@
 import React from "react";
-
+import moodifyScreenshot from '../assets/Moodify Screenshot.png';
+import outdoorScreenshot from '../assets/Outdoor adventures screenshot.png'
+import libraryScreenshot from '../assets/Screenshot 2024-03-20 012203.png'
+import notesScreenshot from '../assets/Wired-notes screenshot.png'
 const projectData = [
     {
       title: 'Outdoor Adventures',
-      imageSrc: 'path/to/image-one.jpg',
+      imageSrc: outdoorScreenshot,
       deployedUrl: 'https://evanrc.github.io/Outdoor-Adventures/',
       repoUrl: 'https://github.com/EvanRC/Outdoor-Adventures',
     },
     {
       title: 'Wired Library',
-      imageSrc: 'path/to/image-two.jpg',
+      imageSrc: libraryScreenshot,
       deployedUrl: 'https://wired-library.onrender.com/',
       repoUrl: 'https://github.com/EvanRC/wired-library',
     },
     {
       title: 'Moodify',
-      imageSrc: 'path/to/image-two.jpg',
+      imageSrc: moodifyScreenshot,
       deployedUrl: 'https://moodify-s7yr.onrender.com/',
       repoUrl: 'https://github.com/EvanRC/Moodify',
     },
@@ -31,7 +34,7 @@ const projectData = [
     },
     {
       title: 'Wired Notes',
-      imageSrc: 'path/to/image-two.jpg',
+      imageSrc: notesScreenshot,
       deployedUrl: 'https://wirednotes-591ce7420307.herokuapp.com/notes',
       repoUrl: 'https://github.com/EvanRC/Wired-Notes',
     },
