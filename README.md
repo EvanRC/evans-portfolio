@@ -8,9 +8,7 @@ A portfolio built using react to showcase skills in modern tech.
 
 ## Table of Contents
 
-- [Installations](#installations)
 - [Usage](#usage)
-- [Credits](#credits)
 - [license](#license)
 
 ## Website Screenshot:
