@@ -12,7 +12,7 @@ const Resume = () => {
     ];
 
     return (
-        <section id="resume">
+        <section className='resume'>
             <h2>Resume</h2>
             
             <h3>Skills</h3>
