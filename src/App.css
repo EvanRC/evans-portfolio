@@ -13,7 +13,7 @@
 
 
 body {
-  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff4500);
+  background: linear-gradient(45deg, var(--primary-color), #0aa0a0, var(--background-color));
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -80,6 +80,7 @@ a href {
  width: 20%;
  margin-bottom: 3REM;
 }
+
 .about-me {
   font-family: "Roboto Mono", monospace;
   color: white;
@@ -133,10 +134,10 @@ a href {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) { /* Adjust breakpoint as needed */
+@media (max-width: 768px) { 
   .nav ul {
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items if desired */
+    align-items: center; /* Center items */
     gap: 2rem;
     
   }
@@ -145,7 +146,7 @@ a href {
     margin-bottom: 0.5em; /* Add some space between stacked items */
   }
 
-  /* Optionally, remove the margin from the last item */
+  /* remove the margin from the last item */
   .nav li:last-child {
     margin-bottom: 0;
   }
