@@ -11,7 +11,6 @@
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px var(--primary-color), 0 0 30px var(--primary-color), 0 0 40px var(--primary-color), 0 0 55px var(--primary-color), 0 0 75px var(--primary-color);
 }
 
-
 body {
   background: linear-gradient(45deg, var(--primary-color), #0aa0a0, var(--background-color));
   background-size: 400% 400%;
@@ -34,7 +33,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Orbitron', sans-serif;
-  color: var(--primary-color);
+  color: black
 }
 
 a {
@@ -119,7 +118,12 @@ a href {
   display: inline-block;
   margin: 10px;
   text-decoration: none;
-  color: var(--background-color);
+  color: var(--secondary-color);
+}
+
+.project :hover {
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 .footer {
