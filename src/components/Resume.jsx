@@ -1,12 +1,12 @@
 import React from 'react';
 
 const Resume = () => {
-    const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js']; // Add or remove skills
+    const skills = ['HTML5', 'CSS', 'JavaScript', 'React', 'Node.js', 'Express', 'MySQL', 'MongDB']; // Add or remove skills
     const educations = [
         {
-            institution: 'UC Davis',
-            degree: 'Certificate of completion Full Stack Web Development Bootcamp',
-            year: '2024',
+            institution: 'UC Davis Coding Bootcamp',
+            Certification: 'Full Stack Web Developer',
+            year: 'April 2024',
         },
 
     ];
@@ -30,7 +30,7 @@ const Resume = () => {
                 </div>
             ))}
 
-            <a href="path-to-your-resume.pdf" download="YourName_Resume.pdf" className="resume-download">
+            <a href="path-to-your-resume.pdf" download="YourName_Resume.pdf" id="resumeDL">
                 Download Resume
             </a>
         </section>

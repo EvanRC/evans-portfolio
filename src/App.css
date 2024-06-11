@@ -126,6 +126,13 @@ a href {
   text-decoration: underline;
 }
 
+.resume {
+  margin-left: 3rem;
+}
+
+#resumeDL {
+  font-size: 2rem;
+}
 .footer {
   justify-content: space-evenly;
   text-align: center; /* Center the footer content */
